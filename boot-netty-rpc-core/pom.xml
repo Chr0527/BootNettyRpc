@@ -217,12 +217,11 @@
         </dependencies>
 
 
-
-
     </dependencyManagement>
 
     <profiles>
         <profile>
+            <!-- 发布环境 -->
             <id>release</id>
             <build>
                 <plugins>
